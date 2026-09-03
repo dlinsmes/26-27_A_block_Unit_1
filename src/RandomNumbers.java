@@ -3,42 +3,42 @@ import java.util.Scanner;
 public class RandomNumbers {
 
     public static void main(String [] args) {
-//        Scanner input = new Scanner(System.in);
-//        System.out.println("how much is potato?");
-//        double unitCost = input.nextDouble();
-//        System.out.println("how many potato?");
-//        int num = input.nextInt();
-//
-//        double taxPercent = 0.075;
-//
-//        double taxAmt = unitCost * taxPercent * num;
-//        System.out.println("tax on " + num + " potatoes is $" + taxAmt);
-//
-//        //normal math order of operations - PEMDAS
-//        //mult and div have the same priority and will run left to right
-//        //-modulo falls in the same priority as mult and div
-//        //add and subtract have the same priority after */%
-//        double total = taxAmt + unitCost * num;
-//
-//        System.out.println("your total is: $" + total);
-//
-//
-//        //-move the decimal to allow the place values desired
-//        //to be ints
-//        //-then cast as int to either truncate or round the remaining
-//        //decimal
-//        //-then move the decimal back to where it's supposed to be
-//
-//        double movedDecimal = total * 100;
-//        System.out.println("moved decimal: " + movedDecimal);
-//
-//        int moneyInt = (int)(movedDecimal + 0.5);
-//        System.out.println("money int: " + moneyInt);
-//
-//        //make sure to use double division by dividing by 100.0
-//        //otherwise the desired cents get lost
-//        double roundedAmt = moneyInt / 100.0;
-//        System.out.println("rounded amt: " + roundedAmt );
+        Scanner input = new Scanner(System.in);
+        System.out.println("how much is potato?");
+        double unitCost = input.nextDouble();
+        System.out.println("how many potato?");
+        int num = input.nextInt();
+
+        double taxPercent = 0.075;
+
+        double taxAmt = unitCost * taxPercent * num;
+        System.out.println("tax on " + num + " potatoes is $" + taxAmt);
+
+        //normal math order of operations - PEMDAS
+        //mult and div have the same priority and will run left to right
+        //-modulo falls in the same priority as mult and div
+        //add and subtract have the same priority after */%
+        double total = taxAmt + unitCost * num;
+
+        System.out.println("your total is: $" + total);
+
+
+        //-move the decimal to allow the place values desired
+        //to be ints
+        //-then cast as int to either truncate or round the remaining
+        //decimal
+        //-then move the decimal back to where it's supposed to be
+
+        double movedDecimal = total * 100;
+        System.out.println("moved decimal: " + movedDecimal);
+
+        int moneyInt = (int)(movedDecimal + 0.5);
+        System.out.println("money int: " + moneyInt);
+
+        //make sure to use double division by dividing by 100.0
+        //otherwise the desired cents get lost
+        double roundedAmt = moneyInt / 100.0;
+        System.out.println("rounded amt: " + roundedAmt );
 
         System.out.println("random numbers");
 
